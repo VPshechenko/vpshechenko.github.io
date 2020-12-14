@@ -1,0 +1,26 @@
+form{
+    display: flex;
+}
+input{
+    width: 100%;
+    
+    padding:0 10px 0 10px;
+    border-radius: 3px;
+    color: green;
+    }
+button {
+    padding:0 10px 0 10px;
+    height: 2em;
+    color: green;
+    border-radius: 3px;
+       
+
+}
+
+input:hover {
+    color: red;
+}
+
+button:hover {
+    color: red;
+}

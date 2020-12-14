@@ -1,0 +1,41 @@
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    position: relative;
+    padding: 5px;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border:  1px solid #ffffff;
+}
+    th {
+        color: white;
+        font-size: 18;
+    }
+    thead {
+        background-color: black;
+    }
+   .tbody1 {
+       background-color: peru;
+   }
+   .tbody2 {
+       background-color: green;
+   }
+   .tbody3 {
+       background-color: blue ;
+   }
+   .tbody4 {
+       background-color: yellow;
+   }
+    .tbody5 {
+        background-color:red ;
+    }
+    .tbody6 {
+        background-color: purple;
+    }
+td {
+    text-align: center;
+}

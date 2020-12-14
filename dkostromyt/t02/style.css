@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;}
+
+td {border: 2px solid #ffffff;
+    padding: 10px;
+    text-align: center;}
+img {height: 120px;
+    width: 120px;
+    border-radius: 10%;}
+/* tfoot {padding: 5px;
+    border: 1px solid grey;
+    text-align: center;} */
+tfoot > tr > td {
+    border: 1px solid grey;
+}    
+
+.Black {
+    background-color: black;
+    color: #ffffff;}
+.ORANGE {
+    background: rgb(211, 142, 63);}
+.Green {
+    background: green;}
+.Blue {
+    background: rgb(89, 89, 228);}
+.Yellow {
+    background: rgb(227, 227, 88);}
+.Red {
+    background: rgb(229, 100, 100);}
+.Purple {
+    background: rgb(139, 101, 176);}
+
+
