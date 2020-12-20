@@ -1,0 +1,318 @@
+body {
+    background-color: #ffffff;
+    padding-left: 50%;
+}
+.portfolio-centr{
+    display: flex;
+    
+    
+}
+
+/* HEDER ICON */
+.gol-heder{
+    background-color: rgb(214, 214, 214);
+    position: fixed;
+    z-index: 1;
+    top: -0.1em;
+    left: -0.1em;
+    width: 76.2em;
+    height: 3.1em;
+    z-index: 3;
+}
+
+
+.icon1{  
+    position:absolute;
+    top: 1.1em;
+    left: 55.9em;
+    position: fixed;
+}
+.icon2{
+    position:absolute;
+    top: 1.1em;
+    left: 66.9em;
+    position: fixed;
+}
+.icon3{
+    position: absolute;
+    top: 0.3em;
+    left: 2.3em;
+    position: fixed;
+}
+
+/* HEADER */
+
+.heder1{
+    position: absolute;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    padding-left: 1.7em;
+    top: .2em;
+  
+}
+.heder2{
+    position: absolute;
+    padding-left: .9em;
+    top: -.1em;
+}
+.heder3{
+    position: absolute;
+    padding-left: 1em;
+    top: -0.1em;
+}
+.heder4{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    position:absolute;
+    top: 0.3em;
+    left: .6em;
+}
+.rost1 {
+    position: absolute;
+    width: 15px;
+    position:absolute;
+    position: fixed ;
+}
+.rost2{
+    position: absolute;
+    width: 15px;
+    position: fixed;
+}
+.rost3{
+    position: absolute;
+    width: 35px;
+    position: fixed;
+}
+
+.fon1{
+    position: absolute;
+    top: 2.5em;
+    left: -9px;
+    height: 40em;
+    width: 40em;
+    background-color: rgb(24, 24, 24);
+}
+
+.fon2{
+    position: absolute;
+    top: 2.5em;
+    left: 39em;
+    height: 40em;
+    width: 37.1em;
+    background-color: rgb(27, 27, 27);
+}
+
+.fon3{
+    position: absolute;
+    top: 73.5em;
+    left: -1em;
+    width: 77.1em;
+    height: 31em;
+    background-color: #181818;
+}
+
+.fon4{
+    position: absolute;
+    top: 42.5em;
+    left: -0.9em;
+    width: 77em;
+    height: 31em;
+    background-color: #ffffff;
+}
+
+.text1{
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    top: 1.5em;
+    left: 0.5em;
+    color: rgba(0, 0, 0, 0.911);
+    font-size: 80px;
+}
+.text2{
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    top: 2.8em;
+    left: 2em;
+    color: rgba(0, 0, 0, 0.911);
+    font-size: 80px;
+}
+
+
+.text-copi1{
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    top: 2.1em;
+    left: 0.5em;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    z-index: 2;
+}
+.text-copi2{
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    top: 3.4em;
+    left: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    z-index: 2;
+}
+
+
+.foto1{
+   
+    position: absolute;
+    top: -2em;
+    left: 2em;
+    height: 35em;
+    width: 35em;
+}
+
+.foto2{
+    position: absolute;
+    top: -2em;
+    left: 40em;
+    height: 35em;
+    width: 35em;
+}
+
+.foto3{
+    position: absolute;
+    top: -6em;
+    width: 40em;
+    height: 41em;
+}
+
+.foto4{
+    position: absolute;
+    top: 25.1em;
+    left: 37.9em;
+    width: 39em;
+    height: 39em;
+}
+
+.foto5{
+    position: absolute;
+    top: 10em;
+    left: -39em;
+    width: 76em;
+    height: 30em;
+    z-index: 1;
+}
+
+.foto6{
+    position: absolute;
+    top: 5.5em;
+    left: 3em;
+    width: 35em;
+    height: 35em;
+    z-index: 1;
+}
+
+.foto7{
+    position: absolute;
+    top: -33em;
+    left: 4.3em;
+    width: 35em;
+    height: 30em;
+    z-index: 3;
+}
+
+.portret{
+    position: absolute;
+    top: -6.7em;
+    left: 1em;
+    width: 35em;
+    z-index: 1;
+}
+
+.forma1{
+    position: absolute;
+    top: 26em;
+    left: 10em;
+    width: 25px;
+    z-index: 2;
+}
+
+.forma2{
+    position: absolute;
+    top: 26em;
+    left: 14em;
+    width: 25px;
+    z-index: 2;
+}
+
+.forma3{
+    position: absolute;
+    top: 26em;
+    left: 18em;
+    width: 25px;
+    z-index: 2;
+}
+
+.forma4{
+    position: absolute;
+    top: 26em;
+    left: 22em;
+    width: 25px;
+    z-index: 2;
+}
+
+.cnop1{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    border-radius: 30px;
+    width: 5em;
+    height: 40px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    position:absolute;
+    top: 16em;
+    left: 5.4em;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    z-index: 2;
+}
+
+.fon-text1{
+    position: absolute;
+    top: -29em;
+    left: 5em;
+    width: 34em;
+    height: 27em;
+    background-color: #dfdfdfe5;
+    z-index: 2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+
+.fon-text2{
+    position: absolute;
+    top: 33em;
+    left: 46em;
+    width: 27em;
+    height: 15em;
+    background-color: #2c2c2cb7;
+    z-index: 2;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+li{
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 2em;
+    left:37em;
+    z-index: 3;
+    font-size: 20px;
+    line-height: 2;
+
+}
+
+
+
+
+
+
+

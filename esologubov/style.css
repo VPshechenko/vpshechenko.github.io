@@ -1,0 +1,257 @@
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 48%, rgba(27, 0, 116, 1) 89%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+.container {
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 500px 60px;
+}
+
+.hello {
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+}
+
+.blink {
+    animation: blink 1.2s infinite;
+    color: white;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    /* position: absolute; */
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    display: inline-block;
+    /* position: relative; */
+    padding: 15px 30px;
+    border: 1px solid;
+    border-color: rgba(111, 0, 116, 1);
+    border-image-slice: 1;
+    margin: 25px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+
+a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    color: white;
+    background: rgba(111, 0, 116, 1);
+    transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+a:hover:before {
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+}
+
+.container-about {
+    /* min-height: 100vh; */
+    width: 100%;
+    /* display: flex; */
+    padding-left: 40px;
+}
+
+.about-me {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: underline;
+    text-decoration-color: rgba(111, 0, 116, 1);
+    color: white;
+    font-size: 35px;
+    /* position: absolute;
+    top: 37em; */
+}
+
+.my-info {
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 25px;
+    text-align: left;
+}
+
+.soft-skills {
+    color: white;
+    font-size: 25px;
+    font-family: 'JetBrains Mono', monospace;
+    /* position: relative;
+    bottom: 1, 5em;
+    left: 2em; */
+}
+
+.h2-2 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    top: 65em;
+    left: 18em;
+}
+
+.hard-skills {
+    color: white;
+    font-size: 25px;
+    font-family: 'JetBrains Mono', monospace;
+    /* position: relative;
+    bottom: 1, 5em;
+    left: 100px; */
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgba(111, 0, 116, 1);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    top: 65em;
+    left: 49px;
+}
+
+li {
+    color: rgba(111, 0, 116, 1);
+}
+
+li span {
+    color: white;
+}
+
+
+/* img {
+    position: relative;
+    top: 12em;
+    left: 60em;
+} */
+
+.container_flex {
+    display: flex;
+    justify-content: flex-start;
+    /* position: absolute;
+    top: 100em; */
+}
+
+.container_flex div {
+    padding: 100px;
+}
+
+.h2-3 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+.container_works {
+    /* display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    display: flex;
+    width: 40px;
+    height: 95px;
+    bottom: 30em;
+    padding: 30px;
+    justify-content: flex-start;
+}
+
+.container_work div {
+    margin: 30px;
+}
+
+.box1 {
+    background: rgba(111, 0, 116, 1);
+    color: #fff;
+    padding: 90px;
+    border-radius: 5px;
+    top: 37em;
+    left: 5em;
+}
+
+.box2 {
+    background: rgba(111, 0, 116, 1);
+    color: #fff;
+    padding: 90px;
+    border-radius: 5px;
+    top: 37em;
+    left: 30em;
+}
+
+.box3 {
+    background: rgba(111, 0, 116, 1);
+    color: #fff;
+    padding: 90px;
+    border-radius: 5px;
+    top: 37em;
+    left: 55em;
+}
+
+.box1:hover {
+    border: 3px dotted rgb(87, 2, 92);
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.box2:hover {
+    border: 3px dotted rgb(87, 2, 92);
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.box3:hover {
+    border: 3px dotted rgb(87, 2, 92);
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.icon {
+    width: 60px;
+}
+
+.social_icons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container_flex {
+        flex-wrap: wrap;
+    }
+}
+
+#about {
+    min-height: 90vh;
+}
