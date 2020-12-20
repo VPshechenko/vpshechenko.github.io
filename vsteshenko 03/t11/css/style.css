@@ -1,0 +1,51 @@
+body {
+    display: flex;
+}
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* padding-bottom: 25px; */
+}
+.button {
+    padding: 10px 30px;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    background-color: rgba(210, 210, 210, 0.5);
+    color: #1f1f1f;
+    cursor: pointer;
+}
+.button__add {
+    background-color: rgba(28, 189, 173, 0.993);
+    color: #f0f0f0;
+}
+.content, .notes {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgba(210, 210, 210, 0.5);
+    padding: 10px;
+    margin-top: 25px;
+}
+.content label, .notes label {
+    padding: 20px;
+}
+.content textarea {
+    margin: 0 20px 20px 20px;
+    border: 2px solid rgba(28, 189, 173, 0.993);
+    border-radius: 5px;
+    padding: 20px;
+;
+}
+.notes__render {
+    margin: 0 20px 20px 20px;
+  
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+}

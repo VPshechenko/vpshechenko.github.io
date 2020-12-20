@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>Tic tac toe :) - by Vladimir Steshenko</title>
+	<meta name="description" content="t09. Tic tac toe">
+	<meta name="author" content="Vladimir Steshenko">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Gloria+Hallelujah&family=Paytone+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"defer></script>
+</head>
+<body>
+	<div class="game">
+		<div class="header">
+			<div class="header__title">Tic tac toe</div>
+		</div>
+		<div class="sidebar row">
+			
+			<div class="player" id="player1">
+				<div class="player__button">Player 1</div>
+				
+				<div class="player__symbol">X</div>
+				<div class="player__go-start">Go-go-go!</div>
+				
+				
+			</div>
+			<div class="player player_right" id="player2">
+				<div class="player__button">Player 2</div>
+				<div class="player__symbol">O</div>
+				<div class="player__go-start">Go-go-go!</div>
+			</div>
+		</div>
+		<div class="game__board">
+			<div class="button button__warning start-game" id="start-game" onclick="startGame()">Start Game!</div>
+			<div class="perspective">
+				<div class="board" id="board">
+					<div class="cell" id="c00">O</div>
+					<div class="cell" id="c10">O</div>
+					<div class="cell win" id="c20">X</div>
+					<div class="cell empty" id="c01"></div>
+					<div class="cell win" id="c11">X</div>
+					<div class="cell" id="c21">O</div>
+					<div class="cell win" id="c02">X</div>
+					<div class="cell empty" id="c12"></div>
+					<div class="cell" id="c22">X</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer row">
+			<div class="time">time: <span class="time-sec" id="timer"> 99.99</span> s</div>
+			<div class="message" id="message">
+				<div class="button button__warning hidden" onclick="stopGame()" id="stop-game">Stop game when You need!</div>
+			</div>
+			<div class="counter">turns: <span class="counter-turns" id="turns">9</span></div>
+		</div>
+		<div class="global-message scaled" id="global-message">
+			<div id="global-message-title"></div>
+			<div class="button" onclick="closeMessage()">Close</div>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
